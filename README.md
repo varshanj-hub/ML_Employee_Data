@@ -12,8 +12,7 @@ It involves end-to-end machine learning — from data preprocessing and visualiz
 ---
 
 ## 🧹 Data Preprocessing Methods
-To ensure high-quality input for modeling, several preprocessing techniques were applied:
-- **Handling Missing Values:** Replaced using `SimpleImputer` for numeric and categorical variables.  
+To ensure high-quality input for modeling, several preprocessing techniques were applied: 
 - **Feature Encoding:** Converted categorical variables using `OneHotEncoder`.  
 - **Feature Scaling:** Applied `StandardScaler` for continuous features.  
 - **Feature Selection:** Dropped irrelevant columns such as `EmployeeCount`, `EmployeeNumber`, `StandardHours`, and `Over18`.  
